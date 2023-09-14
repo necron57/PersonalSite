@@ -1,0 +1,11 @@
+#mainTitle{
+	color: blueviolet;
+}
+
+body{
+	background-color: darkturquoise;
+}
+.aboutme{
+	border: blueviolet solid 12px;
+	border-style: ridge;
+}
