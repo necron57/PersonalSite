@@ -1,11 +1,29 @@
-#mainTitle{
-	color: blueviolet;
-}
+
 
 body{
-	background-color: darkturquoise;
+	background:linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url(https://images-assets.nasa.gov/image/PIA17563/PIA17563~medium.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 .aboutme{
 	border: blueviolet solid 12px;
 	border-style: ridge;
+}
+.card-container {
+    height: fit-content;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto; /* Updated */
+    grid-column-gap: .5rem;
+    grid-row-gap: .5rem;
+}
+.card-container:hover {
+    background-color: rgb(130, 93, 138);
+    cursor: pointer;
+    border-top: 1px solid rgb(130, 93, 138);
 }
